@@ -250,25 +250,12 @@ nav a{
 
 /*optional section style end*/
 
-
-.game-section{
-    margin-top: 60px;
-}
+/*game part start*/
 .online-game-title{
     color: #0B0223;
-text-align: center;
-font-size: 3rem;
-font-weight: 700;
-line-height: normal;
-}
-
-.online-game-description{
-    color: #534C64;
     text-align: center;
-   font-size: 1.125rem;
-   font-weight: 400;
-   margin-top: 15px;
-
+   font-size: 3rem;
+   font-weight: 700;
 }
 
 .funny{
@@ -280,17 +267,47 @@ font-size: 3rem;
 font-weight: 700;
 }
 
-.game-img{
+.online-game-description{
+    color: #534C64;
+text-align: center;
+font-size: 1.125rem;
+font-weight: 500;
+line-height: 30px; /* 166.667% */
+}
+
+.game-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 50px;
-    margin: 70px 160px;
+    justify-content: center;
+    padding-left: 100px;
+  
 }
 
-.game-img img{
-    width: 100%;
+.game-card img{
+    position: relative ;
 }
 
+.game-card > img:hover{
+    border: 5px solid  #F948B2 ;
+    border-radius: 20px;
+}
+
+
+  .game-card:hover .image-overlay{
+    display: block;
+   
+   }
+
+   .game-card:hover .game-img {
+    border: 5px solid #F948B2;
+    border-radius: 20px;
+    filter: brightness(30%); /* Apply a slight darkening effect on hover */
+  }
+
+.game-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /*footer section start*/
 
@@ -417,24 +434,22 @@ font-weight: 700;
     .optional-container{
         flex-direction: column;
     }
-
-    .content-img{
-        
-    }
-    .gamer-sec{
-        padding: 30px;
-    }
-
-    .game-img{
-        grid-template-columns: 1fr;
-    }
-
-    .online-game-description{
-        font-size: 0.8rem;
-    }
-
-    .online-game-title , .funny{
+    .online-game-title , .funny ,.optional-head, .optional-end{
         font-size: 1.5rem;
+    }
+
+
+    .online-game-description , .optional-info , .purpose{
+       font-size: 1rem;
+    }
+
+    .game-description{
+
+    }
+   
+    .game-container{
+        grid-template-columns: 1fr;
+        padding: 0 50px;
     }
 
     .footer-container , .footer-list{
