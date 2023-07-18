@@ -3,8 +3,16 @@
     padding: 0;
 }
 
+body{
+    font-family:'Work Sans', sans-serif;;
+}
+
+
+
+/*nav-section style start*/
+
+
 .navbar-section{
-    border: 1px solid saddlebrown;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -39,7 +47,7 @@ nav > ul {
 
 nav li{
     list-style: none;
-    margin: 0 40px;
+   
 }
 
 nav a{
@@ -50,15 +58,86 @@ nav a{
     font-weight: 500;
 }
 
-.follow-btn{
-    width: 262px;
-    height: 56px;
-    border: 0;
-    border-radius: 8px;
+
+.follow-us{
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 0;
     background-color: rgba(11, 2, 35, 0.10);
-    margin-left: 70px
+    border-radius: 8px;
+    width: 262px;
+    height: 56px; 
+    gap: 30px;
+}
+
+.follow-title{
+    color: #3C354F;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 30px;
 }
 
 .nav-about{
-    margin-right: 200px; 
+     margin-left: 400px;
+     gap: 50px;
 }
+
+
+/*nav-section style end*/
+
+
+/*banner-section style start*/
+
+.banner-section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+
+.banner-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.banner-goat{
+    text-align: center;
+    font-size:6rem;
+    font-weight: 800;
+    color:  #F948B2 ;
+    margin-bottom: 30px;
+}
+
+.banner-play{
+     display: flex;
+    align-items: center;
+     gap: 15px;
+}
+
+.banner-download{
+    display: flex;
+    gap: 15px;
+}
+
+.download-support{
+    display: flex;
+    gap: 15px;
+}
+
+.inf0{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.banner-info{
+    margin: auto 0;
+}
+
+/*banner section style end*/
