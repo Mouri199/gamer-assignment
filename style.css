@@ -309,6 +309,38 @@ line-height: 30px; /* 166.667% */
     margin-bottom: 50px;
 }
 
+.cartoon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cartoon-title{
+    width: 380px;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px; /
+}
+
+.instantly{
+    color: #F948B2;
+}
+
+.cartoon-details{
+width: 353px;
+color: #534C64;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 30px;
+}
+
+
+.card{
+    width: 318.5px;
+height: 365.083px;
+border-radius: 8px;
+border: 10px solid #FFF;
+}
 /*footer section start*/
 
 
