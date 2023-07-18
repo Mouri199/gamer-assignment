@@ -248,8 +248,122 @@ nav a{
     width: 100%;
 }
 
+/*optional section style end*/
 
 
+.game-section{
+    margin-top: 60px;
+}
+.online-game-title{
+    color: #0B0223;
+text-align: center;
+font-size: 3rem;
+font-weight: 700;
+line-height: normal;
+}
+
+.online-game-description{
+    color: #534C64;
+    text-align: center;
+   font-size: 1.125rem;
+   font-weight: 400;
+   margin-top: 15px;
+
+}
+
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 3rem;
+font-weight: 700;
+}
+
+.game-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    margin: 70px 160px;
+}
+
+.game-img img{
+    width: 100%;
+}
+
+
+/*footer section start*/
+
+
+.footer-container{
+    padding-top: 140px;
+    background: #0B0223;
+    padding-bottom: 140px;
+}
+.footer-content{
+    gap: 30px;
+}
+.ga{
+    color: #F948B2;
+    font-size: 2.8rem;
+}
+.amer{
+    color: #FFF;
+    font-size: 2.8rem;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.footer-list li {
+    list-style: none;
+    color: #FFF;
+    font-size: 1.1.25rem;
+    font-weight: 600;
+}
+
+.footer-logo{
+    margin-top: 30px;
+    gap: 50px ;
+    display: flex;
+    justify-content: center;
+}
+
+.info-list{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+ 
+}
+
+.footer-info li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.info-details{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+}
 
 @media screen and (max-width:576px) {
     .navbar-section{
@@ -309,6 +423,36 @@ nav a{
     }
     .gamer-sec{
         padding: 30px;
+    }
+
+    .game-img{
+        grid-template-columns: 1fr;
+    }
+
+    .online-game-description{
+        font-size: 0.8rem;
+    }
+
+    .online-game-title , .funny{
+        font-size: 1.5rem;
+    }
+
+    .footer-container , .footer-list{
+      flex-direction: column;
+    }
+
+    .footer-list{
+        gap: 15px;
+        align-items: center;
+    }
+
+    .footer-logo{
+        gap: 15px;
+    }
+
+    .info-list{
+        gap: 10px;
+        margin-left: 20px;
     }
 
     }
