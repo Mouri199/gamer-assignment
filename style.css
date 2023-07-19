@@ -373,50 +373,61 @@ margin-bottom: 20px;
         left: -110px;
       } 
 
-/*overlay 
-
-      .overlay-section2{
+     .overlay-section2{
+        margin-top: 190px;
         margin-bottom: 190px;
-      }
+     }
+
       .overlay-container2{
-        width: 80vw;
-        margin: 0 auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
-      
+        margin: 0 auto;
       }
+
       .overlay-text2{
         text-align: left;
         width: 350px;
       }
+      
       .overlay-title2{
-      font-size:  3rem;
-      font-weight: 700;
-      line-height: 60px;
-      }
-      .overlay-details2{
+        font-size:  3rem;
+        font-weight: 700;
+        line-height: 60px;
+     }
+
+     .overlay-details2{
         color: #534C64;
       font-size: 1.125rem;
       font-weight: 400;
       line-height: 30px; 
       }
+
       .overlay-img2{
-        width: 550px;
-        position: relative;
-      
-      }
-      .overlay-img2 > img{
-        width: 100%; 
-      
-      }
-      .over-img2 {
-        width: 40%;
-        position: absolute;
-        bottom: -120px;
-        right: 10px;
-      } 
-section2 start*/
+        width: 500px;
+        position: relative;  
+ }
+
+ .overlay-img2 > img{
+    width: 100%; 
+
+  }
+
+  .over-img2 {
+    width: 30%;
+    position: absolute;
+    bottom: -150px;
+    right: 20px;
+
+  } 
+
+  .color-txt{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+
 .instantly{
     color: #F948B2;
 }
@@ -760,8 +771,25 @@ section2 start*/
         flex-direction: column;
     }
 
-    .careers-title {
+    .careers-title , .overlay-title2 , .overlay-details2{
         text-align: center;
+    }
+
+    .overlay-container2{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .overlay-img2{
+        width: 80%;
+    }
+
+    .over-img2 > img{
+        width: 190%;
+    }
+
+    .over-img2{
+        padding-right: 50px;
     }
 }
 
@@ -861,10 +889,6 @@ section2 start*/
        font-size: 1rem
     }
 
-    .online-game-description{
-        text-align: center;
-    }
-
    
     .game-container{
         grid-template-columns: 1fr;
@@ -921,7 +945,24 @@ section2 start*/
         flex-direction: column;
     }
 
-    .careers-title {
+    .careers-title , .overlay-details2 , .overlay-title2 {
         text-align: center;
+    }
+
+    .overlay-container2{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .overlay-img2{
+        width: 80%;
+    }
+
+    .over-img2 > img{
+        width: 190%;
+    }
+
+    .over-img2{
+        padding-right: 50px;
     }
 }
