@@ -309,38 +309,105 @@ line-height: 30px; /* 166.667% */
     margin-bottom: 50px;
 }
 
-.cartoon-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+
+.overlay-section{
+    margin-bottom: 190px;
 }
 
-.cartoon-title{
-    width: 380px;
-    font-size: 3rem;
-    font-weight: 700;
-    line-height: 60px; /
+.overlay-container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap:150px;
 }
+
+.overlay-text{
+    text-align: right;
+    width: 350px;
+  }
+
+  .overlay-title{
+    font-size:  3rem;
+    font-weight: 700;
+    line-height: 60px;
+    }
+
+    .overlay-details{
+        color: #534C64;
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 30px; 
+      }
+
+      .overlay-img{
+        width: 550px;
+        position: relative;
+      
+      }
+
+      .overlay-img > img{
+        width: 100%; 
+      
+      }
+
+      .over-img {
+        width: 40%;
+        position: absolute;
+        bottom: -120px;
+        left: -110px;
+      } 
+
+
+      .overlay-section2{
+        margin-bottom: 190px;
+      }
+      .overlay-container2{
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+      }
+      .overlay-text2{
+        text-align: left;
+        width: 350px;
+      }
+      .overlay-title2{
+      font-size:  3rem;
+      font-weight: 700;
+      line-height: 60px;
+      }
+      .overlay-details2{
+        color: #534C64;
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 30px; 
+      }
+      .overlay-img2{
+        width: 550px;
+        position: relative;
+      
+      }
+      .overlay-img2 > img{
+        width: 100%; 
+      
+      }
+      .over-img2 {
+        width: 40%;
+        position: absolute;
+        bottom: -120px;
+        right: 10px;
+      } 
 
 .instantly{
     color: #F948B2;
 }
 
-.cartoon-details{
-width: 353px;
-color: #534C64;
-font-size: 1.125rem;
-font-weight: 400;
-line-height: 30px;
-}
 
-
-.card{
-    width: 318.5px;
-height: 365.083px;
-border-radius: 8px;
-border: 10px solid #FFF;
-}
 /*footer section start*/
 
 
