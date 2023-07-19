@@ -559,7 +559,7 @@ line-height: 30px; /* 166.667% */
         font-size: 3rem;
     }
 
-    .optional-info , .optional-head , .content-bt{
+    .optional-info , .optional-head , .content-bt ,.overlay-title, .overlay-details{
         text-align: center;
     }
 
