@@ -755,3 +755,164 @@ section2 start*/
         text-align: center;
     }
 }
+
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .navbar-section{
+        display: grid;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .gamer-img{
+        margin: 0 250px ;
+    }
+    .nav-about{
+       
+        flex-direction: column;
+        margin: 20px 30px;
+        gap: 20px;
+    }
+
+    li a{
+        font-size: 0.8rem;
+    }
+    .follow-btn{
+        font-size: 0.8rem;
+        margin: 0 30px;
+        padding: 5px;
+        gap: 10px;
+    }
+
+    .banner-info{
+        margin-top: 100px;
+    }
+    .banner-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .group-18{
+        width: 100%;
+    }
+
+    .banner-title{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .banner-title2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .banner-list{
+        padding-left: 80px;
+    }
+
+    .banner-button{
+        margin-left: 100px;
+        margin-bottom: 20px;
+       
+    }
+   .btn1 , .btn2{
+    padding: 10px;
+    }
+
+    .optional-container {
+        flex-direction: column;
+    }
+
+    .optional-head , .overlay-title{
+        font-size: 3rem;
+    }
+
+    .optional-info , .optional-head , .content-bt ,.overlay-title,.overlay-details{
+        text-align: center;
+    }
+
+    .know-btn{
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .purpose{
+        font-size: 1.2rem ;
+        text-align: center;
+    }
+
+    .optional-end{
+        font-size:1.6rem ;
+        text-align: center;
+    }
+    .online-game-title , .funny {
+        font-size: 1.5rem;
+    }
+
+
+    .online-game-description , .optional-info , .overlay-details {
+       font-size: 1rem
+    }
+
+    .online-game-description{
+        text-align: left;
+    }
+
+   
+    .game-container{
+        grid-template-columns: 1fr;
+       margin-left: 100px;
+    }
+
+    .footer-container , .footer-list{
+      flex-direction: column;
+    }
+
+    .footer-list{
+        gap: 15px;
+        align-items: center;
+    }
+
+    .footer-logo{
+        gap: 15px;
+    }
+
+    .info-list{
+        gap: 10px;
+        margin-left: 20px;
+    }
+
+
+    .overlay-container{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .overlay-img{
+        width: 100%;
+    }
+
+    .over-img > img{
+        width: 150%;
+    }
+     
+    .over-img{
+        padding-left: 50px;
+    }
+
+    .cartoon-btn-container{
+        grid-template-columns: repeat(3,1fr);
+        padding-right: 30px;
+    }
+
+    .cartoon-btn{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .careers-content{
+        flex-direction: column;
+    }
+
+    .careers-title {
+        text-align: center;
+    }
+}
