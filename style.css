@@ -533,7 +533,7 @@ line-height: 30px; /* 166.667% */
         font-size: 1rem;
         text-align: center;
     }
-    .banner-title2{
+    .banner-title2 {
         font-size: 3rem;
         text-align: center;
     }
@@ -551,44 +551,39 @@ line-height: 30px; /* 166.667% */
     padding: 10px;
     }
 
-    .optional-container{
+    .optional-container {
         flex-direction: column;
     }
 
-    .optional-head{
-        text-align: center;
+    .optional-head , .overlay-title{
+        font-size: 3rem;
     }
 
-    .optional-info{
-        text-align: center;
-
-    }
-
-    .content-bt{
+    .optional-info , .optional-head , .content-bt{
         text-align: center;
     }
 
     .know-btn{
-        font-size: 0.5rem;
-        padding: 7px;
+        font-size: 1rem;
+        padding: 10px;
     }
 
     .purpose{
-        font-size: 1rem ;
+        font-size: 1.2rem ;
         text-align: center;
     }
 
     .optional-end{
-        font-size:1.2rem ;
+        font-size:1.6rem ;
         text-align: center;
     }
-    .online-game-title , .funny ,.optional-head{
+    .online-game-title , .funny {
         font-size: 1.5rem;
     }
 
 
-    .online-game-description , .optional-info {
-       font-size: 0.5rem
+    .online-game-description , .optional-info , .overlay-details {
+       font-size: 1rem
     }
 
    
@@ -615,4 +610,20 @@ line-height: 30px; /* 166.667% */
         margin-left: 20px;
     }
 
+
+    .overlay-container{
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .overlay-img{
+        width: 100%;
+    }
+
+    .over-img > img{
+        width: 150%;
+    }
      
+    .over-img{
+        padding-left: 50px;
+    }
